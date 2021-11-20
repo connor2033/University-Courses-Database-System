@@ -1,0 +1,91 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css);
+
+body{
+    background-color: rebeccapurple;
+    color: white;
+    margin: auto;
+    width: 100%;
+}
+
+.container{
+    padding: 0;
+}
+
+.section{
+    margin-top: 80px;
+    padding: 30px;
+    
+    
+    background-color: mediumpurple;
+    
+    border-top: 5px solid white;
+    
+    box-shadow: 5px 5px 20px black;
+    
+    width: 100%;
+}
+
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+    background-color: mediumpurple;
+    border-bottom: 2px solid white;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+.nav-item{
+    color: white;
+}
+
+.nav-item:hover{
+    color: rebeccapurple;
+    transition: 0.2s;
+    }
+
+.space{
+    height: 50px;
+}
+
+
+
+legend{
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: rebeccapurple;
+    color: white;
+    transition: 0.2s;
+}
+
+
+table, th, td {
+    border: 2px solid;
+    border-collapse: collapse;
+        
+    padding: 5px;
+}
+
+fieldset{
+    display: block;
+}
+
+input{
+    border: transparent;
+    border-radius: 5px;
+}
+
+select{
+    padding: 5px;
+    border-radius: 5px;
+}
